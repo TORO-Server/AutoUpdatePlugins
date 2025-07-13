@@ -45,10 +45,6 @@ list:
   - file: "DispenserActions.jar"
     url: https://github.com/malken21/DispenserActions
 
-  - file: "dynmap.jar"
-    url: https://github.com/webbukkit/dynmap
-    get: "Dynmap-.*-spigot\\.jar"
-
   - file: "Effect_GUI.jar"
     url: https://github.com/malken21/Minecraft_Effect_GUI_Spigot
 
