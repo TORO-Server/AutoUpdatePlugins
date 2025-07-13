@@ -80,9 +80,6 @@ list:
   - file: "Multiverse-Core.jar"
     url: https://github.com/Multiverse/Multiverse-Core
 
-  - file: "PlaceholderAPI.jar"
-    url: https://github.com/PlaceholderAPI/PlaceholderAPI
-
   - file: "ProtocolLib.jar"
     url: https://github.com/dmulloy2/ProtocolLib
 
