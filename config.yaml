@@ -1,14 +1,4 @@
 list:
-  - file: "AutoUpdatePlugins.jar"
-    url: https://github.com/ApliNi/AutoUpdatePlugins/
-
-  - file: "EssentialsX.jar" # Github
-    url: https://github.com/EssentialsX/Essentials
-    get: "EssentialsX-.*\\.jar"
-  - file: "EssentialsXChat.jar"
-    url: https://github.com/EssentialsX/Essentials
-    get: "EssentialsXChat-.*\\.jar"
-
   - file: "AddPerm.jar"
     url: https://github.com/TORO-Server/addperm
 
@@ -41,3 +31,81 @@ list:
 
   - file: "CommandPanels.jar"
     url: https://github.com/rockyhawk64/CommandPanels
+
+  - file: "DiscordSRV.jar"
+    url: https://github.com/DiscordSRV/DiscordSRV
+
+  - file: "Dispenser_FallingBlock.jar"
+    url: https://github.com/malken21/Minecraft_DispenserFallingBlock_Spigot
+
+  - file: "DispenserActions.jar"
+    url: https://github.com/malken21/DispenserActions
+
+  - file: "dynmap.jar"
+    url: https://github.com/webbukkit/dynmap
+    get: "Dynmap-.*-spigot\\.jar"
+
+  - file: "Effect_GUI.jar"
+    url: https://github.com/malken21/Minecraft_Effect_GUI_Spigot
+
+  - file: "EssentialsX.jar"
+    url: https://github.com/EssentialsX/Essentials
+    get: "EssentialsX-.*\\.jar"
+
+  - file: "EssentialsXChat.jar"
+    url: https://github.com/EssentialsX/Essentials
+    get: "EssentialsXChat-.*\\.jar"
+
+  - file: "KillPotionDeathLog.jar"
+    url: https://github.com/malken21/KillPotionDeathLog
+
+  - file: "GSit.jar"
+    url: https://github.com/Gecolay/GSit
+
+  - file: "HideNametagCMD.jar"
+    url: https://github.com/malken21/HideNametagCMD
+
+  - file: "ImageOnMap.jar"
+    url: https://github.com/zDevelopers/ImageOnMap
+
+  - file: "InfinityDispense.jar"
+    url: https://github.com/TORO-Server/InfinityDispense
+
+  - file: "Lift.jar"
+    url: https://github.com/croxis/Lift
+
+  - file: "LunaChat.jar"
+    url: https://github.com/mofucraft/LunaChat
+
+  - file: "Multiverse-Core.jar"
+    url: https://github.com/Multiverse/Multiverse-Core
+
+  - file: "PlaceholderAPI.jar"
+    url: https://github.com/PlaceholderAPI/PlaceholderAPI
+
+  - file: "ProtocolLib.jar"
+    url: https://github.com/dmulloy2/ProtocolLib
+
+  - file: "Skills.jar"
+    url: https://github.com/TORO-Server/Skills
+
+  - file: "TeleportSpectator.jar"
+    url: https://github.com/malken21/Minecraft_TeleportSpectator_Spigot
+
+  - file: "TOROpassICsystem.jar"
+    url: https://github.com/TORO-Server/TOROpassICsystem
+
+  - file: "Tps_log.jar"
+    url: https://github.com/malken21/TPS-Log
+
+  - file: "Vault.jar"
+    url: https://github.com/milkbowl/Vault
+
+  - file: "Warn_KillPotion.jar"
+    url: https://github.com/malken21/Minecraft_Warn_KillPotion_Spigot
+
+  - file: "WorldEditSelectionVisualizer.jar"
+    url: https://github.com/MrMicky-FR/WorldEditSelectionVisualizer
+
+  - file: "WorldGuardExtraFlags.jar"
+    url: https://github.com/aromaa/WorldGuardExtraFlags
