@@ -141,6 +141,7 @@ def main():
         print("警告: GitHubトークンが設定されていません。API制限に注意してください。")
 
     print("--- プラグインの更新チェックを開始します ---")
+    print(f"自動更新設定のプラグイン数: {plugins['list'] and len(plugins['list']) or 0}")
     for plugin in plugins['list']:
         process_plugin(plugin)
         print("-" * 20)
