@@ -6,7 +6,7 @@ import re
 import sys
 
 # 定数
-YAML_FILE = 'plugins.yaml'
+CONFIG_FILE = 'config.yaml'
 GITHUB_API_URL_BASE = 'https://api.github.com/repos'
 
 
@@ -122,11 +122,11 @@ def process_plugin(plugin):
 
 def main():
     """メイン処理"""
-    if not os.path.exists(YAML_FILE):
-        print(f"エラー: 設定ファイル '{YAML_FILE}' が見つかりません。")
+    if not os.path.exists(CONFIG_FILE):
+        print(f"エラー: 設定ファイル '{CONFIG_FILE}' が見つかりません。")
         sys.exit(1)
 
-    with open(YAML_FILE, 'r', encoding='utf-8') as f:
+    with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
         plugins = yaml.safe_load(f)
 
     if not plugins:
