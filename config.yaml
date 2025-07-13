@@ -1,0 +1,43 @@
+list:
+  - file: "AutoUpdatePlugins.jar"
+    url: https://github.com/ApliNi/AutoUpdatePlugins/
+
+  - file: "EssentialsX.jar" # Github
+    url: https://github.com/EssentialsX/Essentials
+    get: "EssentialsX-.*\\.jar"
+  - file: "EssentialsXChat.jar"
+    url: https://github.com/EssentialsX/Essentials
+    get: "EssentialsXChat-.*\\.jar"
+
+  - file: "AddPerm.jar"
+    url: https://github.com/TORO-Server/addperm
+
+  - file: "Armor_stand.jar"
+    url: https://github.com/malken21/Minecraft_Armor_stand_Spigot
+
+  - file: "ArmorStandEditor.jar"
+    url: https://github.com/Wolfieheart/ArmorStandEditor
+
+  - file: "Auto_message.jar"
+    url: https://github.com/malken21/Minecraft_AutoMessage_Spigot
+
+  - file: "BanPlayerSheet.jar"
+    url: https://github.com/malken21/BanPlayerSheet
+
+  - file: "BlocksHub.jar"
+    url: https://github.com/SBPrime/BlocksHub
+
+  - file: "BungeeGuard.jar"
+    url: https://github.com/lucko/BungeeGuard
+
+  - file: "ClickMinecart.jar"
+    url: https://github.com/punipuni-3730/Click-to-Minecart
+
+  - file: "ClockItemTimer.jar"
+    url: https://github.com/malken21/ClockItemTimer
+
+  - file: "ClockPlugin.jar"
+    url: https://github.com/malken21/Minecraft_clock_Spigot
+
+  - file: "CommandPanels.jar"
+    url: https://github.com/rockyhawk64/CommandPanels
