@@ -5,9 +5,9 @@ import hashlib
 import re
 import sys
 
-# 定数
 CONFIG_FILE = 'config.yaml'
 GITHUB_API_URL_BASE = 'https://api.github.com/repos'
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", None)  # 環境変数からGitHubトークンを取得
 
 
 def get_file_sha256(filepath):
@@ -56,7 +56,11 @@ def process_plugin(plugin):
     # GitHub APIで最新リリースの情報を取得
     api_url = f"{GITHUB_API_URL_BASE}/{owner}/{repo}/releases/latest"
     try:
-        headers = {'Accept': 'application/vnd.github.v3+json'}
+        headers = {
+            'Accept': 'application/vnd.github.v3+json'
+        }
+        if GITHUB_TOKEN:
+            headers['Authorization'] = f'token {GITHUB_TOKEN}'
         response = requests.get(api_url, headers=headers, timeout=10)
         response.raise_for_status()
         release_data = response.json()
@@ -132,6 +136,9 @@ def main():
     if not plugins:
         print("設定ファイルにプラグインが定義されていません。")
         return
+
+    if GITHUB_TOKEN is None:
+        print("警告: GitHubトークンが設定されていません。API制限に注意してください。")
 
     print("--- プラグインの更新チェックを開始します ---")
     for plugin in plugins['list']:
