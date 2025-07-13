@@ -1,6 +1,7 @@
 list:
   - file: "SignedVelocity.jar"
     url: https://github.com/4drian3d/SignedVelocity
+    get: "SignedVelocity-Paper-.*\\.jar"
 
   - file: "AddPerm.jar"
     url: https://github.com/TORO-Server/addperm
