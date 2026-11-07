@@ -1,0 +1,66 @@
+name: plugin-lock
+
+# plugins.lock.json の確かめと更新。TORO-Proxy の plugin-pins と同じ型。
+# プルリクエストでは、固定した版を配布元の公開ハッシュと比べる。
+# 週に1度 (と手動で) 新しいリリースを調べて PR を作る。
+
+on:
+  schedule:
+    - cron: '31 19 * * 2'
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'plugins.lock.json'
+      - 'auto_update_plugins.py'
+      - '.github/workflows/plugin-lock.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: plugin-lock-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: 固定した版を確かめる
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 auto_update_plugins.py check
+
+  update:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v7
+      - name: 新しいリリースを調べる
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 auto_update_plugins.py update
+      - name: 変わっていれば PR を作る
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- plugins.lock.json; then
+            echo '更新はありません'
+            exit 0
+          fi
+          branch="aup/update-$(date +%Y%m%d)"
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git checkout -b "$branch"
+          git add plugins.lock.json
+          git commit -m 'プラグインの固定を最新リリースへ上げる'
+          git push -u origin "$branch"
+          gh pr create --title 'プラグインの固定を最新リリースへ上げる' \
+            --body 'auto_update_plugins.py update の自動生成。check が配布元の公開ハッシュと実ダウンロードの一致を確かめてからマージすること。' \
+            --base main --head "$branch"
