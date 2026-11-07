@@ -1,0 +1,439 @@
+{
+  "BlueMap": {
+    "source": "modrinth:bluemap",
+    "version": "5.29-paper",
+    "file": "bluemap-5.29-paper.jar",
+    "glob": "bluemap-*-paper.jar",
+    "url": "https://cdn.modrinth.com/data/swbUV1cr/versions/uHQIrUdf/bluemap-5.29-paper.jar",
+    "sha256": "7bf475936c26107d476c63151c76d5b49e865eebeada12c9e7d92155de877b9f",
+    "sha512": "e936198eaf7ea83429e1d08b8e2a5447dd359c0252e3410cb3cc101860c933abcc055462a11b034a4dd77b699da54017412ac73728860fd8b68a672c32d9926c"
+  },
+  "DiscordSRV": {
+    "source": "modrinth:discordsrv",
+    "version": "1.30.5",
+    "file": "DiscordSRV-Build-1.30.5.jar",
+    "glob": "DiscordSRV-*.jar",
+    "url": "https://cdn.modrinth.com/data/UmLGoGij/versions/ATlquwiT/DiscordSRV-Build-1.30.5.jar",
+    "sha256": "ef2fa1f2eb146c7c77412b7190a7dd33f1fc91282683fe45407739554c8aefef",
+    "sha512": "ef31c7dd8962c7f907bc37b6d762c0ebd1b52f20ff72bb2dd35edb0e354010c03d3eb4cafa8f7acec42aa5e91988814bd0c338a5bced06095c07a6b9b366505c"
+  },
+  "WorldEdit": {
+    "source": "modrinth:worldedit",
+    "version": "7.4.6",
+    "file": "worldedit-bukkit-7.4.6.jar",
+    "glob": "worldedit-bukkit-*.jar",
+    "url": "https://cdn.modrinth.com/data/1u6JkXh5/versions/YFnqiUlL/worldedit-bukkit-7.4.6.jar",
+    "sha256": "e0ce67d870ad1fef8a40dd9d7926360caf3bb44722438545d6b20b55f82a0c91",
+    "sha512": "1fe3975132857093f971fed9efc601299bfa76fa7885f52a542fee41e7a0165ca9cb3cbcf5ae244474887d774d650b0db6f8f79aa80f98b245dea44f1c1b4152"
+  },
+  "WorldGuard": {
+    "source": "modrinth:worldguard",
+    "version": "7.0.20",
+    "file": "worldguard-bukkit-7.0.20.jar",
+    "glob": "worldguard-bukkit-*.jar",
+    "url": "https://cdn.modrinth.com/data/DKY9btbd/versions/9YdeGXiK/worldguard-bukkit-7.0.20.jar",
+    "sha256": "8768a49bcbecbb7a413ad134ee72d9871cdf967b7d938e6b96bb0ca72bb1467b",
+    "sha512": "d7ad3f8b14c57deceb409dc8997fe3d7f0a98dd4158c52648111bfbe6934ca9be53fa42ece4d60d9c2d9da33f7d6ecf597117991bd3b8e7afbf308cd925e409c"
+  },
+  "EssentialsXChat": {
+    "source": "modrinth:essentialsx-chat-module",
+    "version": "2.22.0",
+    "file": "EssentialsXChat-2.22.0.jar",
+    "glob": "EssentialsXChat-*.jar",
+    "url": "https://cdn.modrinth.com/data/2qgyQbO1/versions/2k7YvKOk/EssentialsXChat-2.22.0.jar",
+    "sha256": "e5b0211f98af1eaba712d9294997639a39209db1fc842394a0923820073ec65a",
+    "sha512": "93d60889a463475f2a7ce204115f8f0cfb4be0347e6c060774cd4734ec0ba036c5789b0eef183cca735069063698ae99301056556f0511fb8e80eb0545366cd1"
+  },
+  "PlaceholderAPI": {
+    "source": "modrinth:placeholderapi",
+    "version": "2.12.3",
+    "file": "PlaceholderAPI-2.12.3.jar",
+    "glob": "PlaceholderAPI-*.jar",
+    "url": "https://cdn.modrinth.com/data/lKEzGugV/versions/pIvQcXW8/PlaceholderAPI-2.12.3.jar",
+    "sha256": "fde03259f5af6938f3c33eeb4d814000a1adabf1d2304ce14970be81f609a437",
+    "sha512": "f048d55b633fd816c08e2e4472bd54a75fc4d13534682e6e7745408253d2f393706efdc389d12ca2cf28d4dc035a9afdda3eed9ecde51c7e332831391d9b6479"
+  },
+  "CommandPanels": {
+    "source": "modrinth:commandpanels",
+    "version": "4.2.5",
+    "file": "CommandPanels-4.2.5.jar",
+    "glob": "CommandPanels-*.jar",
+    "url": "https://cdn.modrinth.com/data/towqcvHT/versions/pPFH50wN/CommandPanels-4.2.5.jar",
+    "sha256": "2308d96d258844aecea5a1da81143793e55dfca34435a0cd7def9dd60c224b9e",
+    "sha512": "ec89df6862ed496701913e90cf629a853ee7ccec7aef138ddc0a17661fbbe46d019457c694025d597d8988ca4fab2367977b3738dcd1acee88651664fdf0759a"
+  },
+  "ImageFrame": {
+    "source": "modrinth:imageframe",
+    "version": "2026.1.5",
+    "file": "ImageFrame-2026.1.5.0.jar",
+    "glob": "ImageFrame-*.jar",
+    "url": "https://cdn.modrinth.com/data/lJFOpcEj/versions/dKkWOwRr/ImageFrame-2026.1.5.0.jar",
+    "sha256": "65b5c14eb6bd847f1cc0f4985efa95ab43d2f3e2f67dbaec2ecf3ea327fde9b1",
+    "sha512": "e9ee5cea569946767c125397550c7ca5bbcbe0d504832af216ec9d8dea99f532f4af80e0e9a17ee917c7fd78c10292ba3bbe61457947f19d3edf68bbf5f2f4a8"
+  },
+  "GSit": {
+    "source": "modrinth:gsit",
+    "version": "3.7.0",
+    "file": "GSit-3.7.0.jar",
+    "glob": "GSit-*.jar",
+    "url": "https://cdn.modrinth.com/data/GOHbQGyX/versions/gnY5Flgo/GSit-3.7.0.jar",
+    "sha256": "143d38509f49c40b214887ad3c682c8db7fdd81c610787d0186d65f51256f4d2",
+    "sha512": "7813fe99d2fde47e3a40538c09b87b88b6101c27fb4f3305e0fd9bf806809c37e4e67c726f96596caca79785cdd7aa8d8ae724b211535775db21e602f57993d5"
+  },
+  "TrainCarts": {
+    "source": "modrinth:traincarts",
+    "version": "2.0.3",
+    "file": "TrainCarts-2.0.3-1768.jar",
+    "glob": "TrainCarts-*.jar",
+    "url": "https://cdn.modrinth.com/data/7xgugLBo/versions/tczjSWCe/TrainCarts-2.0.3-1768.jar",
+    "sha256": "915402d2818acc5f0356c51f08c6a10e5252688c048c366659dd673cca78db9b",
+    "sha512": "450d33c2f1a75e161ea99dd69ad5751e554328152bf8a6d904b36211b220f543ca9ae9a4a175b32d682c451b5e6d0250031dc1d32472fc530081fb57da47fc94"
+  },
+  "BKCommonLib": {
+    "source": "modrinth:bkcommonlib",
+    "version": "2.0.5",
+    "file": "BKCommonLib-2.0.5-2090.jar",
+    "glob": "BKCommonLib-*.jar",
+    "url": "https://cdn.modrinth.com/data/rTg6ckWb/versions/bV0IsMUE/BKCommonLib-2.0.5-2090.jar",
+    "sha256": "cd5971e2bd453eb0fef3e35660f1c593f8433b23e6f82ac74a46f899cb0335f6",
+    "sha512": "f9c8ddb60c11a14dbbc989a170fedd484ad3bef1b96e9071102e98db3834cbbacf3736ce92972543961fc2c7f683599e3423e299615a3a54e786d8ab6d958502"
+  },
+  "Multiverse-Core": {
+    "source": "modrinth:multiverse-core",
+    "version": "4.3.12",
+    "file": "multiverse-core-4.3.12.jar",
+    "glob": "multiverse-core-*.jar",
+    "url": "https://cdn.modrinth.com/data/3wmN97b8/versions/LgvHOAFp/multiverse-core-4.3.12.jar",
+    "sha256": "98237aaf35c6ee7bfd95fb7f399ef703b3e72bff8eab488a904aad9d4530cd10",
+    "sha512": "8edfb100403dc6af2056c63b12429e98d5945817229d135c6b1e98735ec15203712ac8f0d229bc1aa478d25ccfb8410918d4ff805f20b9d4b997e11543183d5c"
+  },
+  "FreedomChat": {
+    "source": "modrinth:freedomchat",
+    "version": "1.7.10",
+    "file": "FreedomChat-Paper-1.7.10.jar",
+    "glob": "FreedomChat-Paper-*.jar",
+    "url": "https://cdn.modrinth.com/data/MubyTbnA/versions/EizopLcV/FreedomChat-Paper-1.7.10.jar",
+    "sha256": "2b23719fcf64ffa6947634cdf6fdc5f4d12e32bafec7e00efc7fdfa8a56a7be2",
+    "sha512": "5532808fa4e08a9156832d54462435b7ff058d0159a14f171bbf1899b16ffb35c74e98ca9e7ca7fec43d4e7b46f9ac18a3386533b8d0b16cbc16fb048a9c47e4"
+  },
+  "RealScoreboard": {
+    "source": "modrinth:realscoreboard",
+    "version": "1.6",
+    "file": "RealScoreboard-1.6.jar",
+    "glob": "RealScoreboard-*.jar",
+    "url": "https://cdn.modrinth.com/data/rw3Y0WsP/versions/eGDksV0d/RealScoreboard-1.6.jar",
+    "sha256": "f849fb18244267699556404de74447dab5759e11d6468dfd7d8ee9f84de9d87d",
+    "sha512": "72f50fb283415f4b8943a3785ecd4cbf5cdca8cb9b366c3d84af8ba3b022d5396f202bb6f6595f4f0a07bb8d521b1749eb8c4eb91cb9eb2eb2f9b445642af80c"
+  },
+  "SeeMore": {
+    "source": "modrinth:seemore",
+    "version": "1.0.2",
+    "file": "SeeMore-1.0.2.jar",
+    "glob": "SeeMore-*.jar",
+    "url": "https://cdn.modrinth.com/data/IEt1Yy3F/versions/QXCh3qCi/SeeMore-1.0.2.jar",
+    "sha256": "8d06d342489947a296f07fbd012ea0e9842242f5af8d534f2dc91b9d2f0721e6",
+    "sha512": "5b6ad1edf059b8f78bb75b0cb7a47df39c05a1443d35e3b8a1f71ed78c4ccbc75d0422001442e6fc3bfdb9df26545600825af22bb00671135d5d206c20fc016b"
+  },
+  "ArmorStandEditor": {
+    "source": "modrinth:armorstandeditor-reborn",
+    "version": "26.3-52.1",
+    "file": "ArmorStandEditor-26.3-52.1.jar",
+    "glob": "ArmorStandEditor-*.jar",
+    "url": "https://cdn.modrinth.com/data/oIBGjZ77/versions/rIPMStjV/ArmorStandEditor-26.3-52.1.jar",
+    "sha256": "ae80f6d14cefc08ba8bece4871b3245cd756e6784c94af02712696c65110ade4",
+    "sha512": "01bc8575f3cba159b6bab3022fe0e61bb2e703115a1ee656563950db72e8aa09dca750c96f93319e5287d0eeb1aecab40d6f5aa0b47ab11cfa9279c359381cce"
+  },
+  "WESV": {
+    "source": "modrinth:wesv",
+    "version": "2.1.10",
+    "file": "WorldEditSelectionVisualizer-2.1.10.jar",
+    "glob": "WorldEditSelectionVisualizer-*.jar",
+    "url": "https://cdn.modrinth.com/data/irvQvXtE/versions/QJkYgQDu/WorldEditSelectionVisualizer-2.1.10.jar",
+    "sha256": "5897fd8de2fafa3fadcde94bb4e48d69047817548bcb9190254190a596509bd2",
+    "sha512": "a760d432eacc37b38c536a1ff216c11e06721e6f3c639a22bc5c494708d56d19c37f180b7f561c753cd6a82effb1c617fc41f6c435c6c385411a43c7c12eb924"
+  },
+  "Vault": {
+    "source": "github:MilkBowl/Vault",
+    "version": "1.7.3",
+    "file": "Vault.jar",
+    "glob": "Vault.jar",
+    "url": "https://github.com/MilkBowl/Vault/releases/download/1.7.3/Vault.jar",
+    "sha256": "a6b5ed97f43a5cf5bbaf00a7c8cd23c5afc9bd003f849875af8b36e6cf77d01d"
+  },
+  "BlocksHub": {
+    "source": "github:SBPrime/BlocksHub",
+    "version": "v3.2.1",
+    "file": "BlocksHub-3.2.1.jar",
+    "glob": "BlocksHub-*.jar",
+    "url": "https://github.com/SBPrime/BlocksHub/releases/download/v3.2.1/BlocksHub-3.2.1.jar",
+    "sha256": "e5e1b484d7f062a191337438fe38c2ca9d9ac0fbb10bc24c9cc5600378c2dda2"
+  },
+  "GeyserSkinManager": {
+    "source": "github:Camotoy/GeyserSkinManager",
+    "version": "1.8",
+    "file": "GeyserSkinManager-Spigot.jar",
+    "glob": "GeyserSkinManager-Spigot*.jar",
+    "url": "https://github.com/Camotoy/GeyserSkinManager/releases/download/1.8/GeyserSkinManager-Spigot.jar",
+    "sha256": "48d9e2d6f7184db9b4bae6ab17227c00de1d51782c1841a1277ec8c398272edd"
+  },
+  "WorldGuardExtraFlags": {
+    "source": "github:aromaa/WorldGuardExtraFlags",
+    "version": "v4.2.2",
+    "file": "WorldGuardExtraFlags.jar",
+    "glob": "WorldGuardExtraFlags*.jar",
+    "url": "https://github.com/aromaa/WorldGuardExtraFlags/releases/download/v4.2.2/WorldGuardExtraFlags.jar",
+    "sha256": "033c40998f66752568429af007cdc0e6dd1b0ce16fae1ea065f4c25ff6272755"
+  },
+  "CoreProtect": {
+    "source": "compat",
+    "version": "24.1",
+    "file": "CoreProtect-24.1-toro26.3.jar",
+    "note": "toro-plugin-compat のパッチ済みビルド。上流の自動更新で上書きしない"
+  },
+  "Shopkeepers": {
+    "source": "compat",
+    "version": "2.28.1",
+    "file": "Shopkeepers-2.28.1-toro26.3.jar",
+    "note": "toro-plugin-compat のパッチ済みビルド。上流の自動更新で上書きしない"
+  },
+  "EssentialsX": {
+    "source": "compat",
+    "version": "2.22.0",
+    "file": "EssentialsX-2.22.0-mc26.3.jar",
+    "note": "toro-plugin-compat のパッチ済みビルド。上流の自動更新で上書きしない"
+  },
+  "MyPet": {
+    "source": "compat",
+    "version": "3.14.3",
+    "file": "MyPet-3.14.3-mc26.3.jar",
+    "note": "toro-plugin-compat のパッチ済みビルド。上流の自動更新で上書きしない"
+  },
+  "Vehicles": {
+    "source": "compat",
+    "version": "14.4",
+    "file": "Vehicles-14.4-mc26.3.jar",
+    "note": "toro-plugin-compat のパッチ済みビルド。上流の自動更新で上書きしない"
+  },
+  "LuckPerms": {
+    "source": "manual",
+    "version": "5.5.88",
+    "file": "LuckPerms-Bukkit-5.5.88.jar",
+    "note": "公式サイト luckperms.net 配布。検証できる公開ハッシュの API が無い"
+  },
+  "ProtocolLib": {
+    "source": "manual",
+    "version": "5.5.0-SNAPSHOT",
+    "file": "ProtocolLib.jar",
+    "note": "公式 Jenkins のスナップショット。版が流動的なため固定対象外"
+  },
+  "Dynmap": {
+    "source": "manual",
+    "version": "3.9-SNAPSHOT",
+    "file": "Dynmap-3.9-SNAPSHOT-spigot.jar",
+    "note": "公式スナップショット。地図描画は TORO-Renderer へ一本化する方針もあり別途判断"
+  },
+  "Dynmap-WorldGuard": {
+    "source": "manual",
+    "version": "1.4-beta-1",
+    "file": "Dynmap-WorldGuard-1.4-beta-1.jar",
+    "note": "Dynmap 公式アドオン。公開ハッシュなし"
+  },
+  "BungeeGuard": {
+    "source": "manual",
+    "version": "1.3-SNAPSHOT",
+    "file": "BungeeGuard.jar",
+    "note": "Luck 公式スナップショット"
+  },
+  "LunaChat": {
+    "source": "manual",
+    "version": "3.1.6",
+    "file": "LunaChat.jar",
+    "note": "3.1.6 の配布元が GitHub リリース (ucchyocean は v3.0.16 まで) に無い"
+  },
+  "WorldBorder": {
+    "source": "manual",
+    "version": "2.1.5",
+    "file": "WorldBorder.jar",
+    "note": "配布元の公開ハッシュなし"
+  },
+  "CrackShot": {
+    "source": "manual",
+    "version": "0.98.13",
+    "file": "CrackShot.jar",
+    "note": "閉源配布。公開ハッシュなし"
+  },
+  "Valoshot": {
+    "source": "manual",
+    "version": "1.0.1",
+    "file": "Valoshot-1.0.1.jar",
+    "note": "第三者作。配布元の公開ハッシュなし"
+  },
+  "Lift": {
+    "source": "manual",
+    "version": "unknown",
+    "file": "Lift.jar",
+    "note": "jar 内の版数が未置換プレースホルダで特定不能 (監査 PLUGIN-PROVENANCE-2)"
+  },
+  "TORO-Core": {
+    "source": "manual",
+    "version": "1.0.0",
+    "file": "TORO-Core-1.0.0.jar",
+    "note": "内製。TORO-Server/TORO-Core でビルド・配布する"
+  },
+  "MarumaSignCompanion": {
+    "source": "manual",
+    "version": "2.3.0",
+    "file": "MarumaSignCompanion-2.3.0.jar",
+    "note": "内製。TORO-Server/MarumaSign-Companion でビルド・配布する"
+  },
+  "TOROpassICsystem": {
+    "source": "manual",
+    "version": "1.7",
+    "file": "TOROpassICsystem-1.7.jar",
+    "note": "内製。TORO-Server/TOROpassICsystem でビルド・配布する"
+  },
+  "TextBeacon": {
+    "source": "manual",
+    "version": "1.0",
+    "file": "TextBeacon-1.0.jar",
+    "note": "内製。TORO-Server/TextBeacon でビルド・配布する"
+  },
+  "Skills": {
+    "source": "manual",
+    "version": "1.0",
+    "file": "skills-1.0.jar",
+    "note": "内製。TORO-Server/Skills でビルド・配布する"
+  },
+  "Report": {
+    "source": "manual",
+    "version": "1.1.2",
+    "file": "report-1.1.2.jar",
+    "note": "内製。TORO-Server/Report でビルド・配布する"
+  },
+  "MasconCart": {
+    "source": "manual",
+    "version": "1.3.3",
+    "file": "MasconCart-1.3.3.jar",
+    "note": "内製。TORO-Server/MasconCart でビルド・配布する"
+  },
+  "AddPerm": {
+    "source": "manual",
+    "version": "1.2",
+    "file": "add-parm-1.2.jar",
+    "note": "内製。TORO-Server/addperm (本番のファイル名は add-parm) でビルド・配布する"
+  },
+  "InventoryBackup": {
+    "source": "manual",
+    "version": "1.0",
+    "file": "InventoryBackup-1.0.jar",
+    "note": "内製。TORO-Server/InventoryBackup でビルド・配布する"
+  },
+  "InfinityDispense": {
+    "source": "manual",
+    "version": "1.0",
+    "file": "InfinityDispense-1.0.jar",
+    "note": "内製。TORO-Server/InfinityDispense でビルド・配布する"
+  },
+  "raidwatcher": {
+    "source": "manual",
+    "version": "1.0",
+    "file": "raidwatcher-1.0.jar",
+    "note": "内製。TORO-Server/raidwatcher でビルド・配布する"
+  },
+  "EffectGUI": {
+    "source": "manual",
+    "version": "1.0",
+    "file": "effect_gui-1.0.jar",
+    "note": "内製 (ソース所在は監査時点で未確認)"
+  },
+  "ClockPlugin": {
+    "source": "manual",
+    "version": "2.0",
+    "file": "clock-2.0.jar",
+    "note": "内製 (ソース所在は監査時点で未確認)"
+  },
+  "DispenserFallingBlock": {
+    "source": "manual",
+    "version": "1.1",
+    "file": "dispenser_falling_block-1.1.jar",
+    "note": "内製 (ソース所在は監査時点で未確認)"
+  },
+  "BanPlayerSheet": {
+    "source": "manual",
+    "version": "1.1",
+    "file": "BanPlayerSheet-1.1.jar",
+    "note": "内製 (ソース所在は監査時点で未確認)"
+  },
+  "HatColorTeam": {
+    "source": "manual",
+    "version": "1.0",
+    "file": "HatColorTeam-1.0.jar",
+    "note": "内製 (ソース所在は監査時点で未確認)"
+  },
+  "KillPotionDeathLog": {
+    "source": "manual",
+    "version": "1.0",
+    "file": "KillPotionDeathLog-1.0.jar",
+    "note": "内製 (ソース所在は監査時点で未確認)"
+  },
+  "AutoMessage": {
+    "source": "manual",
+    "version": "2.1",
+    "file": "auto_message-2.1.jar",
+    "note": "内製 (ソース所在は監査時点で未確認)"
+  },
+  "WarnKillPotion": {
+    "source": "manual",
+    "version": "2.0",
+    "file": "Warn_KillPotion-2.0.jar",
+    "note": "内製 (ソース所在は監査時点で未確認)"
+  },
+  "ClockItemTimer": {
+    "source": "manual",
+    "version": "1.1",
+    "file": "clock_item_timer-1.1.jar",
+    "note": "内製 (ソース所在は監査時点で未確認)"
+  },
+  "TeleportSpectator": {
+    "source": "manual",
+    "version": "1.0",
+    "file": "teleport_spectator-1.0.jar",
+    "note": "内製 (ソース所在は監査時点で未確認)"
+  },
+  "ArmorStand": {
+    "source": "manual",
+    "version": "1.0",
+    "file": "armor_stand-1.0.jar",
+    "note": "内製 (ソース所在は監査時点で未確認)"
+  },
+  "DispenserActions": {
+    "source": "manual",
+    "version": "1.1",
+    "file": "DispenserActions-1.1.jar",
+    "note": "内製 (ソース所在は監査時点で未確認)"
+  },
+  "HideNametagCMD": {
+    "source": "manual",
+    "version": "1.0",
+    "file": "hide_nametag_cmd-1.0.jar",
+    "note": "内製 (ソース所在は監査時点で未確認)"
+  },
+  "TpsLog": {
+    "source": "manual",
+    "version": "4.0",
+    "file": "tps_log-4.0.jar",
+    "note": "内製 (ソース所在は監査時点で未確認)"
+  },
+  "ItemDropCooldown": {
+    "source": "manual",
+    "version": "1.0",
+    "file": "item_drop_cooldown-1.0.jar",
+    "note": "内製 (ソース所在は監査時点で未確認)"
+  },
+  "ClickMinecart": {
+    "source": "manual",
+    "version": "3.1",
+    "file": "ClickMinecart-3.1.jar",
+    "note": "内製 (ソース所在は監査時点で未確認)"
+  }
+}

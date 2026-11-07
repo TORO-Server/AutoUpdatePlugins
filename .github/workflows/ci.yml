@@ -1,0 +1,36 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: 単体テスト
+        run: python3 -m unittest discover -s tests -v
+      - name: lock の形を確かめる
+        run: |
+          python3 - << 'PYEOF'
+          import json, pathlib
+          lock = json.loads(pathlib.Path('plugins.lock.json').read_text(encoding='utf-8'))
+          assert lock, 'lock が空です'
+          for name, e in lock.items():
+              assert e['source'].split(':')[0] in ('modrinth', 'github', 'compat', 'manual'), (name, e['source'])
+              assert e['version'] and e['file'], name
+              if e['source'].startswith(('modrinth:', 'github:')):
+                  assert e['url'].startswith('https://'), name
+                  assert len(e['sha256']) == 64, name
+          print(f"{len(lock)} 件のエントリの形が正しい")
+          PYEOF
