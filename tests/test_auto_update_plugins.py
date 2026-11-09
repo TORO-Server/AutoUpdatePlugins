@@ -134,6 +134,29 @@ class CheckTest(unittest.TestCase):
             self.assertEqual(aup.check(lock), 1)
 
 
+class VerifyTest(unittest.TestCase):
+    def test_verify_ok_ng_and_skip(self):
+        content = b"jar-bytes"
+        sha = hashlib.sha256(content).hexdigest()
+        lock = {
+            "Auto": {"source": "github:o/r", "version": "1.0", "file": "Auto.jar", "sha256": sha},
+            "Hand": {"source": "manual", "version": "1.0", "file": "Hand.jar", "sha256": sha},
+            "NoHash": {"source": "manual", "version": "1.0", "file": "NoHash.jar", "note": "n"},
+        }
+        with tempfile.TemporaryDirectory() as td:
+            target = pathlib.Path(td)
+            (target / "Auto.jar").write_bytes(content)
+            (target / "Hand.jar").write_bytes(content)
+            self.assertEqual(aup.verify(lock, td), 0)
+            # 改変すると NG
+            (target / "Hand.jar").write_bytes(b"tampered")
+            self.assertEqual(aup.verify(lock, td), 1)
+            # ファイルが無くても NG
+            (target / "Hand.jar").write_bytes(content)
+            (target / "Auto.jar").unlink()
+            self.assertEqual(aup.verify(lock, td), 1)
+
+
 class UpdateTest(unittest.TestCase):
     def test_update_rewrites_lock(self):
         entry = {"source": "github:o/r", "version": "1.0", "file": "Plug-1.0.jar", "glob": "Plug-*.jar",

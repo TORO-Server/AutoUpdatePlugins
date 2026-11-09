@@ -188,31 +188,29 @@
     "source": "compat",
     "version": "24.1",
     "file": "CoreProtect-24.1-toro26.3.jar",
-    "note": "toro-plugin-compat のパッチ済みビルド。上流の自動更新で上書きしない"
-  },
-  "Shopkeepers": {
-    "source": "compat",
-    "version": "2.28.1",
-    "file": "Shopkeepers-2.28.1-toro26.3.jar",
-    "note": "toro-plugin-compat のパッチ済みビルド。上流の自動更新で上書きしない"
+    "note": "toro-plugin-compat のパッチ済みビルド。上流の自動更新で上書きしない。sha256 は 2026-11-09 の本番実測 (compat のビルド成果物と一致) で固定し、verify で照合する",
+    "sha256": "7d41a0cd5a05aa27df98ecd66efef4c435bfe91c87aafa1fadf352a895647ac0"
   },
   "EssentialsX": {
     "source": "compat",
     "version": "2.22.0",
     "file": "EssentialsX-2.22.0-mc26.3.jar",
-    "note": "toro-plugin-compat のパッチ済みビルド。上流の自動更新で上書きしない"
+    "note": "toro-plugin-compat のパッチ済みビルド。上流の自動更新で上書きしない。sha256 は 2026-11-09 の本番実測 (compat のビルド成果物と一致) で固定し、verify で照合する",
+    "sha256": "38d2462eadbc59c388ef998c2983a036ac836b159a635c7949442f6294336a71"
   },
   "MyPet": {
     "source": "compat",
     "version": "3.14.3",
     "file": "MyPet-3.14.3-mc26.3.jar",
-    "note": "toro-plugin-compat のパッチ済みビルド。上流の自動更新で上書きしない"
+    "note": "toro-plugin-compat のパッチ済みビルド。上流の自動更新で上書きしない。sha256 は 2026-11-09 の本番実測 (compat のビルド成果物と一致) で固定し、verify で照合する",
+    "sha256": "90a0981cbe28e757f8591ee354ccd0c0e5993be07057ee63da6ec546c78b72bd"
   },
   "Vehicles": {
     "source": "compat",
     "version": "14.4",
     "file": "Vehicles-14.4-mc26.3.jar",
-    "note": "toro-plugin-compat のパッチ済みビルド。上流の自動更新で上書きしない"
+    "note": "toro-plugin-compat のパッチ済みビルド。上流の自動更新で上書きしない。sha256 は 2026-11-09 の本番実測 (compat のビルド成果物と一致) で固定し、verify で照合する",
+    "sha256": "3d850bfa887a51f9bf5679eee53143afcec2b758a3a5cf5b7a65fb58ed4203e7"
   },
   "LuckPerms": {
     "source": "manual",
@@ -224,13 +222,15 @@
     "source": "manual",
     "version": "5.5.0-SNAPSHOT",
     "file": "ProtocolLib.jar",
-    "note": "公式 Jenkins のスナップショット。版が流動的なため固定対象外"
+    "note": "公式 Jenkins のスナップショット。版数表記の末尾が上流 dmulloy2/ProtocolLib のコミット 6cf7c7d8c38f3ea521862c1d1fd3eedec7cdb8db (2026-11-09 棚卸しで特定)。sha256 は 2026-11-09 の本番実測で固定し、verify で照合する",
+    "sha256": "f9a876d235d4cc072c1d614c62819ea02ca0974c3d4897ef5868209d99dd0b2a"
   },
   "Dynmap": {
     "source": "manual",
     "version": "3.9-SNAPSHOT",
     "file": "Dynmap-3.9-SNAPSHOT-spigot.jar",
-    "note": "公式スナップショット。地図描画は TORO-Renderer へ一本化する方針もあり別途判断"
+    "note": "公式スナップショット (3.9-SNAPSHOT-Dev)。正確なビルドのコミットは特定できなかったため、sha256 は 2026-11-09 の本番実測で固定し、verify で照合する",
+    "sha256": "251c3a71e26f8cdc6d0906d343f07dd30d019ccc8e279dc058c7a327f6780fa1"
   },
   "Dynmap-WorldGuard": {
     "source": "manual",
@@ -242,7 +242,8 @@
     "source": "manual",
     "version": "1.3-SNAPSHOT",
     "file": "BungeeGuard.jar",
-    "note": "Luck 公式スナップショット"
+    "note": "Luck 公式スナップショット。jar 内 Maven メタデータの生成時刻 (2022-10-02 15:57:18 UTC) から上流 lucko/BungeeGuard のコミット 1686cb7a4c43eedffc87f9fdbd981732f9f04122 と特定 (2026-11-09 棚卸し)。sha256 は本番実測で固定し、verify で照合する",
+    "sha256": "7393b151ad4bfb7dadcab60c9c7540f8dc363783e8c4606138749ec9b79a4c31"
   },
   "LunaChat": {
     "source": "manual",
@@ -344,96 +345,128 @@
     "source": "manual",
     "version": "1.0",
     "file": "effect_gui-1.0.jar",
-    "note": "内製 (ソース所在は監査時点で未確認)"
+    "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
+    "sha256": "10df2455e6bfcda805b8af6f2af95fe66a8349741e4e3460dbdbfb18b59d3717",
+    "repo": "TORO-Server/Minecraft_Effect_GUI_Spigot@a6bc0b00fe70ac10fe45df196becfffaf3c1540c"
   },
   "ClockPlugin": {
     "source": "manual",
     "version": "2.0",
     "file": "clock-2.0.jar",
-    "note": "内製 (ソース所在は監査時点で未確認)"
+    "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
+    "sha256": "5c57593d2f3dd5401f4d5d2697acadd156cb0db83ddc6a4121ec2be1c6993d9c",
+    "repo": "TORO-Server/Minecraft_clock_Spigot@1ac27b2a26500ccd07b24fb35070fcb9fa371bbb"
   },
   "DispenserFallingBlock": {
     "source": "manual",
     "version": "1.1",
     "file": "dispenser_falling_block-1.1.jar",
-    "note": "内製 (ソース所在は監査時点で未確認)"
+    "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
+    "sha256": "d89442106b85e13bd8a823db6534ae61da9fe2e46278949a45f1f0408209a64c",
+    "repo": "TORO-Server/Minecraft_DispenserFallingBlock_Spigot@a928196b97dd25e463ebf195e7ed2f9a13c7c1f4"
   },
   "BanPlayerSheet": {
     "source": "manual",
     "version": "1.1",
     "file": "BanPlayerSheet-1.1.jar",
-    "note": "内製 (ソース所在は監査時点で未確認)"
+    "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
+    "sha256": "2beb5857751ee80b448b9142949e91cb3b082d5ccb1a7d156fce2ebdd7939685",
+    "repo": "TORO-Server/BanPlayerSheet@2974da76e4961fef9bfa0a9e39bf40262a0dabce"
   },
   "HatColorTeam": {
     "source": "manual",
     "version": "1.0",
     "file": "HatColorTeam-1.0.jar",
-    "note": "内製 (ソース所在は監査時点で未確認)"
+    "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
+    "sha256": "66c4fa9f25dd6a1885754bacbdfd67b7fa0973a5a48067dc7ad2a7eb9616f9d3",
+    "repo": "TORO-Server/HatColorTeam@0b88fb3da875ed04ead85c3b0ccf30b56add29d7"
   },
   "KillPotionDeathLog": {
     "source": "manual",
     "version": "1.0",
     "file": "KillPotionDeathLog-1.0.jar",
-    "note": "内製 (ソース所在は監査時点で未確認)"
+    "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
+    "sha256": "4925bd24ad122da4d0f04251d64214698879bdfc95217dcebd90d83f76830c2d",
+    "repo": "TORO-Server/KillPotionDeathLog@a72d4f53b4a339a258264b571d8a888e0f2118db"
   },
   "AutoMessage": {
     "source": "manual",
     "version": "2.1",
     "file": "auto_message-2.1.jar",
-    "note": "内製 (ソース所在は監査時点で未確認)"
+    "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
+    "sha256": "a1ba841e2fdeec062f7c0f40b0e40c3b8ffd7094331a8eab36449809758ea2e9",
+    "repo": "TORO-Server/Minecraft_AutoMessage_Spigot@e5a1ed3dbafbe7b36efc11a69b25f15a9969cb25"
   },
   "WarnKillPotion": {
     "source": "manual",
     "version": "2.0",
     "file": "Warn_KillPotion-2.0.jar",
-    "note": "内製 (ソース所在は監査時点で未確認)"
+    "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
+    "sha256": "7d2b8cf34f607c39867a5ce47e723c273f4d4956cc30ae35ab71889bb066b5ef",
+    "repo": "TORO-Server/Minecraft_Warn_KillPotion_Spigot@0f6455843fb4a073f4bd14ba5c1bed44bcec20d1"
   },
   "ClockItemTimer": {
     "source": "manual",
     "version": "1.1",
     "file": "clock_item_timer-1.1.jar",
-    "note": "内製 (ソース所在は監査時点で未確認)"
+    "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
+    "sha256": "f9d15283007b456535b17e239dec351f19847b266a241730c3204c93b9534906",
+    "repo": "TORO-Server/ClockItemTimer@831dcb859badd673489774dfad98f15615fe986d"
   },
   "TeleportSpectator": {
     "source": "manual",
     "version": "1.0",
     "file": "teleport_spectator-1.0.jar",
-    "note": "内製 (ソース所在は監査時点で未確認)"
+    "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
+    "sha256": "e9cb7fe84d9b44b5caf7d11de108098b2f4222ca9da023df5d270cfa3c454734",
+    "repo": "TORO-Server/Minecraft_TeleportSpectator_Spigot@87add7b71bf3db038e44446fb4a7ac404f2b5788"
   },
   "ArmorStand": {
     "source": "manual",
     "version": "1.0",
     "file": "armor_stand-1.0.jar",
-    "note": "内製 (ソース所在は監査時点で未確認)"
+    "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
+    "sha256": "d8c5f55a75a72a9879e312afc3ce7044e8eb9917ed80c7c2ad40ff5028acbf2e",
+    "repo": "TORO-Server/Minecraft_Armor_stand_Spigot@1141a0cd7d10247391e1a14ce8bd33d04d45250b"
   },
   "DispenserActions": {
     "source": "manual",
     "version": "1.1",
     "file": "DispenserActions-1.1.jar",
-    "note": "内製 (ソース所在は監査時点で未確認)"
+    "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
+    "sha256": "1f825e8444c41b7d35027d7a6892293323b2b6dd7719f27cb5c03db5a9e4e691",
+    "repo": "TORO-Server/DispenserActions@f9747fcbe5f9d3f47487a79ef8b370c3ebcd423c"
   },
   "HideNametagCMD": {
     "source": "manual",
     "version": "1.0",
     "file": "hide_nametag_cmd-1.0.jar",
-    "note": "内製 (ソース所在は監査時点で未確認)"
+    "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
+    "sha256": "94f7e5ef05e75742fc7dd4a4858dd614caab93c14e2b3cd5ef10db1cbebe6743",
+    "repo": "TORO-Server/HideNametagCMD@4015e7327db802b35ccb586f26fe9f4849335f8b"
   },
   "TpsLog": {
     "source": "manual",
     "version": "4.0",
     "file": "tps_log-4.0.jar",
-    "note": "内製 (ソース所在は監査時点で未確認)"
+    "note": "内製。ソースは repo のタグ V4.0.0 (HEAD は 4.1 に進行済み)。2026-11-09 棚卸しで特定",
+    "sha256": "81c4a926f491d08c12e487ad01e55c067bf0d17f89024bc3a4a65870cb0e88e7",
+    "repo": "TORO-Server/TPS-Log@V4.0.0"
   },
   "ItemDropCooldown": {
     "source": "manual",
     "version": "1.0",
     "file": "item_drop_cooldown-1.0.jar",
-    "note": "内製 (ソース所在は監査時点で未確認)"
+    "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
+    "sha256": "26d16ef805898ad142b08bc9bad7d9bbd78b74ad0698cf949501af29b954526e",
+    "repo": "TORO-Server/Minecraft_ItemDropCooldown_Spigot@700bbccf38e4986158cd4e6a9a2e5020cd38df02"
   },
   "ClickMinecart": {
     "source": "manual",
-    "version": "3.1",
+    "version": "3.0",
     "file": "ClickMinecart-3.1.jar",
-    "note": "内製 (ソース所在は監査時点で未確認)"
+    "note": "内製 (コミュニティ作)。ファイル名は 3.1 だが jar 内 plugin.yml の版数は 3.0。ソースは repo 参照先の版数 3.0 のビルド (2026-11-09 棚卸しで特定)",
+    "sha256": "a893cd57d553dea043e3a4edc7304e647ce8c3e264970842c2273b393bac3d56",
+    "repo": "punipuni-3730/Click-to-Minecart"
   }
 }
