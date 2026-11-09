@@ -266,12 +266,6 @@
     "file": "MasconCart-1.3.3.jar",
     "note": "内製。TORO-Server/MasconCart でビルド・配布する"
   },
-  "InfinityDispense": {
-    "source": "manual",
-    "version": "1.0",
-    "file": "InfinityDispense-1.0.jar",
-    "note": "内製。TORO-Server/InfinityDispense でビルド・配布する"
-  },
   "ClickMinecart": {
     "source": "manual",
     "version": "3.0",
