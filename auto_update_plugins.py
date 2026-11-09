@@ -5,12 +5,15 @@
   python3 auto_update_plugins.py check            固定した版を配布元の公開ハッシュと比べ、取ったものとも比べる
   python3 auto_update_plugins.py update           配布元の最新のリリースに lock を書き換える (上げるのは PR で)
   python3 auto_update_plugins.py fetch <dir>      固定した版を <dir> へ取りそろえる (本番への配置は運用の段階適用で行う)
+  python3 auto_update_plugins.py verify <dir>     <dir> の jar を lock の sha256 と比べる (sha256 を持つエントリのみ)
 
 設計:
   plugins.lock.json が正本。エントリの source は modrinth:<project>、github:<owner/repo>、
   compat、manual の4種。compat は toro-plugin-compat のパッチ済みビルドで、上流の自動更新で
   上書きしてはいけない。manual は検証できる公開ハッシュを持つ配布元が無いものと内製で、
-  check / update / fetch の自動処理から外す。Velocity のプラグインは TORO-Proxy の
+  check / update / fetch の自動処理から外す。ただし compat と manual でも、実測した sha256 を
+  lock に持つエントリは verify で実ファイルと照合でき、差し替えや改変を検出できる。
+  Velocity のプラグインは TORO-Proxy の
   ops/both-service/plugins.lock.json が担うため、ここには入れない。
 
 公開ハッシュ: Modrinth はファイルの sha512、GitHub はアセットの digest (sha256)。
@@ -299,9 +302,32 @@ def fetch(lock, target):
     return 1 if bad else 0
 
 
+def verify(lock, plugins_dir):
+    """<dir> の jar を lock の sha256 と比べる。compat / manual を含め、sha256 を持つ
+    エントリが対象。sha256 の無いエントリは SKIP、ファイルが無いか違えば NG。"""
+    bad = 0
+    for name, entry in lock.items():
+        want = entry.get("sha256", "")
+        if not SHA256.match(want):
+            print(f"SKIP {name}: sha256 が lock にありません")
+            continue
+        path = pathlib.Path(plugins_dir) / entry["file"]
+        if not path.is_file():
+            print(f"NG {name}: {entry['file']} がありません")
+            bad += 1
+            continue
+        got = file_sha256(path)
+        if got != want:
+            print(f"NG {name}: {entry['file']} の sha256 が lock と違います ({got})")
+            bad += 1
+        else:
+            print(f"OK {name}: {entry['version']} {got}")
+    return 1 if bad else 0
+
+
 def main():
     args = sys.argv[1:]
-    if args not in (["check"], ["update"]) and not (len(args) == 2 and args[0] == "fetch"):
+    if args not in (["check"], ["update"]) and not (len(args) == 2 and args[0] in ("fetch", "verify")):
         print(__doc__)
         return 2
     lock = json.loads(LOCK.read_text(encoding="utf-8"))
@@ -309,6 +335,8 @@ def main():
         return check(lock)
     if args[0] == "update":
         return update(lock)
+    if args[0] == "verify":
+        return verify(lock, args[1])
     return fetch(lock, args[1])
 
 
