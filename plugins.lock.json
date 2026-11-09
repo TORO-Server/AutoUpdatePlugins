@@ -349,22 +349,6 @@
     "sha256": "10df2455e6bfcda805b8af6f2af95fe66a8349741e4e3460dbdbfb18b59d3717",
     "repo": "malken21/Minecraft_Effect_GUI_Spigot@a6bc0b00fe70ac10fe45df196becfffaf3c1540c"
   },
-  "ClockPlugin": {
-    "source": "manual",
-    "version": "2.0",
-    "file": "clock-2.0.jar",
-    "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
-    "sha256": "5c57593d2f3dd5401f4d5d2697acadd156cb0db83ddc6a4121ec2be1c6993d9c",
-    "repo": "malken21/Minecraft_clock_Spigot@1ac27b2a26500ccd07b24fb35070fcb9fa371bbb"
-  },
-  "DispenserFallingBlock": {
-    "source": "manual",
-    "version": "1.1",
-    "file": "dispenser_falling_block-1.1.jar",
-    "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
-    "sha256": "d89442106b85e13bd8a823db6534ae61da9fe2e46278949a45f1f0408209a64c",
-    "repo": "malken21/Minecraft_DispenserFallingBlock_Spigot@a928196b97dd25e463ebf195e7ed2f9a13c7c1f4"
-  },
   "BanPlayerSheet": {
     "source": "manual",
     "version": "1.1",
@@ -372,14 +356,6 @@
     "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
     "sha256": "2beb5857751ee80b448b9142949e91cb3b082d5ccb1a7d156fce2ebdd7939685",
     "repo": "malken21/BanPlayerSheet@2974da76e4961fef9bfa0a9e39bf40262a0dabce"
-  },
-  "KillPotionDeathLog": {
-    "source": "manual",
-    "version": "1.0",
-    "file": "KillPotionDeathLog-1.0.jar",
-    "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
-    "sha256": "4925bd24ad122da4d0f04251d64214698879bdfc95217dcebd90d83f76830c2d",
-    "repo": "malken21/KillPotionDeathLog@a72d4f53b4a339a258264b571d8a888e0f2118db"
   },
   "AutoMessage": {
     "source": "manual",
@@ -389,30 +365,6 @@
     "sha256": "a1ba841e2fdeec062f7c0f40b0e40c3b8ffd7094331a8eab36449809758ea2e9",
     "repo": "malken21/Minecraft_AutoMessage_Spigot@e5a1ed3dbafbe7b36efc11a69b25f15a9969cb25"
   },
-  "WarnKillPotion": {
-    "source": "manual",
-    "version": "2.0",
-    "file": "Warn_KillPotion-2.0.jar",
-    "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
-    "sha256": "7d2b8cf34f607c39867a5ce47e723c273f4d4956cc30ae35ab71889bb066b5ef",
-    "repo": "malken21/Minecraft_Warn_KillPotion_Spigot@0f6455843fb4a073f4bd14ba5c1bed44bcec20d1"
-  },
-  "ClockItemTimer": {
-    "source": "manual",
-    "version": "1.1",
-    "file": "clock_item_timer-1.1.jar",
-    "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
-    "sha256": "f9d15283007b456535b17e239dec351f19847b266a241730c3204c93b9534906",
-    "repo": "malken21/ClockItemTimer@831dcb859badd673489774dfad98f15615fe986d"
-  },
-  "TeleportSpectator": {
-    "source": "manual",
-    "version": "1.0",
-    "file": "teleport_spectator-1.0.jar",
-    "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
-    "sha256": "e9cb7fe84d9b44b5caf7d11de108098b2f4222ca9da023df5d270cfa3c454734",
-    "repo": "malken21/Minecraft_TeleportSpectator_Spigot@87add7b71bf3db038e44446fb4a7ac404f2b5788"
-  },
   "ArmorStand": {
     "source": "manual",
     "version": "1.0",
@@ -420,14 +372,6 @@
     "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
     "sha256": "d8c5f55a75a72a9879e312afc3ce7044e8eb9917ed80c7c2ad40ff5028acbf2e",
     "repo": "malken21/Minecraft_Armor_stand_Spigot@1141a0cd7d10247391e1a14ce8bd33d04d45250b"
-  },
-  "DispenserActions": {
-    "source": "manual",
-    "version": "1.1",
-    "file": "DispenserActions-1.1.jar",
-    "note": "内製。ソースは repo の参照先でビルドする (2026-11-09 棚卸しで特定)",
-    "sha256": "1f825e8444c41b7d35027d7a6892293323b2b6dd7719f27cb5c03db5a9e4e691",
-    "repo": "malken21/DispenserActions@f9747fcbe5f9d3f47487a79ef8b370c3ebcd423c"
   },
   "TpsLog": {
     "source": "manual",
