@@ -125,15 +125,6 @@
     "sha256": "f849fb18244267699556404de74447dab5759e11d6468dfd7d8ee9f84de9d87d",
     "sha512": "72f50fb283415f4b8943a3785ecd4cbf5cdca8cb9b366c3d84af8ba3b022d5396f202bb6f6595f4f0a07bb8d521b1749eb8c4eb91cb9eb2eb2f9b445642af80c"
   },
-  "SeeMore": {
-    "source": "modrinth:seemore",
-    "version": "1.0.2",
-    "file": "SeeMore-1.0.2.jar",
-    "glob": "SeeMore-*.jar",
-    "url": "https://cdn.modrinth.com/data/IEt1Yy3F/versions/QXCh3qCi/SeeMore-1.0.2.jar",
-    "sha256": "8d06d342489947a296f07fbd012ea0e9842242f5af8d534f2dc91b9d2f0721e6",
-    "sha512": "5b6ad1edf059b8f78bb75b0cb7a47df39c05a1443d35e3b8a1f71ed78c4ccbc75d0422001442e6fc3bfdb9df26545600825af22bb00671135d5d206c20fc016b"
-  },
   "ArmorStandEditor": {
     "source": "modrinth:armorstandeditor-reborn",
     "version": "26.3-52.1",
@@ -232,30 +223,12 @@
     "note": "公式スナップショット (3.9-SNAPSHOT-Dev)。正確なビルドのコミットは特定できなかったため、sha256 は 2026-11-09 の本番実測で固定し、verify で照合する",
     "sha256": "251c3a71e26f8cdc6d0906d343f07dd30d019ccc8e279dc058c7a327f6780fa1"
   },
-  "Dynmap-WorldGuard": {
-    "source": "manual",
-    "version": "1.4-beta-1",
-    "file": "Dynmap-WorldGuard-1.4-beta-1.jar",
-    "note": "Dynmap 公式アドオン。公開ハッシュなし"
-  },
   "BungeeGuard": {
     "source": "manual",
     "version": "1.3-SNAPSHOT",
     "file": "BungeeGuard.jar",
     "note": "Luck 公式スナップショット。jar 内 Maven メタデータの生成時刻 (2022-10-02 15:57:18 UTC) から上流 lucko/BungeeGuard のコミット 1686cb7a4c43eedffc87f9fdbd981732f9f04122 と特定 (2026-11-09 棚卸し)。sha256 は本番実測で固定し、verify で照合する",
     "sha256": "7393b151ad4bfb7dadcab60c9c7540f8dc363783e8c4606138749ec9b79a4c31"
-  },
-  "LunaChat": {
-    "source": "manual",
-    "version": "3.1.6",
-    "file": "LunaChat.jar",
-    "note": "3.1.6 の配布元が GitHub リリース (ucchyocean は v3.0.16 まで) に無い"
-  },
-  "WorldBorder": {
-    "source": "manual",
-    "version": "2.1.5",
-    "file": "WorldBorder.jar",
-    "note": "配布元の公開ハッシュなし"
   },
   "CrackShot": {
     "source": "manual",
@@ -268,12 +241,6 @@
     "version": "1.0.1",
     "file": "Valoshot-1.0.1.jar",
     "note": "第三者作。配布元の公開ハッシュなし"
-  },
-  "Lift": {
-    "source": "manual",
-    "version": "unknown",
-    "file": "Lift.jar",
-    "note": "jar 内の版数が未置換プレースホルダで特定不能 (監査 PLUGIN-PROVENANCE-2)"
   },
   "TORO-Core": {
     "source": "manual",
@@ -293,53 +260,17 @@
     "file": "TOROpassICsystem-1.7.jar",
     "note": "内製。TORO-Server/TOROpassICsystem でビルド・配布する"
   },
-  "TextBeacon": {
-    "source": "manual",
-    "version": "1.0",
-    "file": "TextBeacon-1.0.jar",
-    "note": "内製。TORO-Server/TextBeacon でビルド・配布する"
-  },
-  "Skills": {
-    "source": "manual",
-    "version": "1.0",
-    "file": "skills-1.0.jar",
-    "note": "内製。TORO-Server/Skills でビルド・配布する"
-  },
-  "Report": {
-    "source": "manual",
-    "version": "1.1.2",
-    "file": "report-1.1.2.jar",
-    "note": "内製。TORO-Server/Report でビルド・配布する"
-  },
   "MasconCart": {
     "source": "manual",
     "version": "1.3.3",
     "file": "MasconCart-1.3.3.jar",
     "note": "内製。TORO-Server/MasconCart でビルド・配布する"
   },
-  "AddPerm": {
-    "source": "manual",
-    "version": "1.2",
-    "file": "add-parm-1.2.jar",
-    "note": "内製。TORO-Server/addperm (本番のファイル名は add-parm) でビルド・配布する"
-  },
-  "InventoryBackup": {
-    "source": "manual",
-    "version": "1.0",
-    "file": "InventoryBackup-1.0.jar",
-    "note": "内製。TORO-Server/InventoryBackup でビルド・配布する"
-  },
   "InfinityDispense": {
     "source": "manual",
     "version": "1.0",
     "file": "InfinityDispense-1.0.jar",
     "note": "内製。TORO-Server/InfinityDispense でビルド・配布する"
-  },
-  "raidwatcher": {
-    "source": "manual",
-    "version": "1.0",
-    "file": "raidwatcher-1.0.jar",
-    "note": "内製。TORO-Server/raidwatcher でビルド・配布する"
   },
   "ClickMinecart": {
     "source": "manual",
