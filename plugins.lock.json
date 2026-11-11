@@ -28,12 +28,12 @@
   },
   "WorldGuard": {
     "source": "modrinth:worldguard",
-    "version": "7.0.20",
-    "file": "worldguard-bukkit-7.0.20.jar",
+    "version": "7.0.21",
+    "file": "worldguard-bukkit-7.0.21.jar",
     "glob": "worldguard-bukkit-*.jar",
-    "url": "https://cdn.modrinth.com/data/DKY9btbd/versions/9YdeGXiK/worldguard-bukkit-7.0.20.jar",
-    "sha256": "8768a49bcbecbb7a413ad134ee72d9871cdf967b7d938e6b96bb0ca72bb1467b",
-    "sha512": "d7ad3f8b14c57deceb409dc8997fe3d7f0a98dd4158c52648111bfbe6934ca9be53fa42ece4d60d9c2d9da33f7d6ecf597117991bd3b8e7afbf308cd925e409c"
+    "url": "https://cdn.modrinth.com/data/DKY9btbd/versions/fiHLM6oY/worldguard-bukkit-7.0.21.jar",
+    "sha256": "070223c535629f3f5d15f002388c1e3ae615a5f4ba051e7ccfb5d716540547a9",
+    "sha512": "4253b97627f93ea007d91e977c15f5f4a3219865589083fa3b523d8b15a2cfe26d71076c8eb98c0122e7fde618ad3fc44cb986dbd40a222f09678b91a98245c2"
   },
   "EssentialsXChat": {
     "source": "modrinth:essentialsx-chat-module",
@@ -73,12 +73,12 @@
   },
   "GSit": {
     "source": "modrinth:gsit",
-    "version": "3.7.0",
-    "file": "GSit-3.7.0.jar",
+    "version": "3.8.0",
+    "file": "GSit-3.8.0.jar",
     "glob": "GSit-*.jar",
-    "url": "https://cdn.modrinth.com/data/GOHbQGyX/versions/gnY5Flgo/GSit-3.7.0.jar",
-    "sha256": "143d38509f49c40b214887ad3c682c8db7fdd81c610787d0186d65f51256f4d2",
-    "sha512": "7813fe99d2fde47e3a40538c09b87b88b6101c27fb4f3305e0fd9bf806809c37e4e67c726f96596caca79785cdd7aa8d8ae724b211535775db21e602f57993d5"
+    "url": "https://cdn.modrinth.com/data/GOHbQGyX/versions/ybfOKLzp/GSit-3.8.0.jar",
+    "sha256": "ac6c759cf9601769e471579f9f6515e558d259e85d0068f22f99164f4ddae00f",
+    "sha512": "df3f3e1de5e466071330c7b96ce84508c445bde64470f18660ad1e06b07d13e540acf88495c5b925dfd922c3d18548fa5695936c750636da18cf01d3ee349470"
   },
   "TrainCarts": {
     "source": "modrinth:traincarts",
@@ -100,12 +100,12 @@
   },
   "Multiverse-Core": {
     "source": "modrinth:multiverse-core",
-    "version": "4.3.12",
-    "file": "multiverse-core-4.3.12.jar",
+    "version": "5.8.2",
+    "file": "multiverse-core-5.8.2.jar",
     "glob": "multiverse-core-*.jar",
-    "url": "https://cdn.modrinth.com/data/3wmN97b8/versions/LgvHOAFp/multiverse-core-4.3.12.jar",
-    "sha256": "98237aaf35c6ee7bfd95fb7f399ef703b3e72bff8eab488a904aad9d4530cd10",
-    "sha512": "8edfb100403dc6af2056c63b12429e98d5945817229d135c6b1e98735ec15203712ac8f0d229bc1aa478d25ccfb8410918d4ff805f20b9d4b997e11543183d5c"
+    "url": "https://cdn.modrinth.com/data/3wmN97b8/versions/de7TbcZG/multiverse-core-5.8.2.jar",
+    "sha256": "792252b6bbcf17c94ab8385e595281c830d7a40c946aea1832d8a010702bb630",
+    "sha512": "1165c96755229583477d120485b49ddf731f44a97e17b99f955892e8e90d1f6b24d2e06bd15b6fc4240197c32970592a2af2febe31044afed949dc2d722d17a8"
   },
   "FreedomChat": {
     "source": "modrinth:freedomchat",
@@ -169,11 +169,11 @@
   },
   "WorldGuardExtraFlags": {
     "source": "github:aromaa/WorldGuardExtraFlags",
-    "version": "v4.2.2",
+    "version": "v4.2.4",
     "file": "WorldGuardExtraFlags.jar",
     "glob": "WorldGuardExtraFlags*.jar",
-    "url": "https://github.com/aromaa/WorldGuardExtraFlags/releases/download/v4.2.2/WorldGuardExtraFlags.jar",
-    "sha256": "033c40998f66752568429af007cdc0e6dd1b0ce16fae1ea065f4c25ff6272755"
+    "url": "https://github.com/aromaa/WorldGuardExtraFlags/releases/download/v4.2.4/WorldGuardExtraFlags.jar",
+    "sha256": "43baf19d4d1d2274239cec60bfcd540433a7c03fb77fbb75a55e879f6e492114"
   },
   "CoreProtect": {
     "source": "compat",
