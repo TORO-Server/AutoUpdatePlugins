@@ -82,12 +82,12 @@
   },
   "TrainCarts": {
     "source": "modrinth:traincarts",
-    "version": "2.0.3",
-    "file": "TrainCarts-2.0.3-1768.jar",
+    "version": "2.0.5",
+    "file": "TrainCarts-2.0.5-1787.jar",
     "glob": "TrainCarts-*.jar",
-    "url": "https://cdn.modrinth.com/data/7xgugLBo/versions/tczjSWCe/TrainCarts-2.0.3-1768.jar",
-    "sha256": "915402d2818acc5f0356c51f08c6a10e5252688c048c366659dd673cca78db9b",
-    "sha512": "450d33c2f1a75e161ea99dd69ad5751e554328152bf8a6d904b36211b220f543ca9ae9a4a175b32d682c451b5e6d0250031dc1d32472fc530081fb57da47fc94"
+    "url": "https://cdn.modrinth.com/data/7xgugLBo/versions/UuY7dxuK/TrainCarts-2.0.5-1787.jar",
+    "sha256": "b0c023a2d9c8164dcab64354d9584df9acc9f5ad980215d961ee2e0b6be2e964",
+    "sha512": "241a0b54ce666cd5da2136a0212c237aef975fa477b1c4bd227bff92d06db5416ca14974e6f5091cf483a2cd103f5a7ac2bd33c9fa9e46fe52a2c6d31266e726"
   },
   "BKCommonLib": {
     "source": "modrinth:bkcommonlib",
